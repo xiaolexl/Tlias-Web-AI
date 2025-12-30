@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: SpringBoot2
+  datasource:
+    url: jdbc:mysql://localhost:3306/itxiaole
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  servlet:
+    multipart:
+      # 单个文件大小
+      max-file-size: 10MB
+      # 单个请求大小
+      max-request-size: 10MB
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: xiaoleqmao
+    region: cn-beijing

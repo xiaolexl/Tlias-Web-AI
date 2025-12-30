@@ -1,0 +1,15 @@
+com\itxiaole\pojo\Student.class
+com\itxiaole\pojo\StudentQueryParm.class
+com\itxiaole\pojo\Emp.class
+com\itxiaole\pojo\Clazz.class
+com\itxiaole\pojo\StudentOption.class
+com\itxiaole\pojo\ClazzsQueryParam.class
+com\itxiaole\pojo\OperateLog.class
+com\itxiaole\pojo\EmpQueryParam.class
+com\itxiaole\pojo\Result.class
+com\itxiaole\pojo\EmpLog.class
+com\itxiaole\pojo\JobOption.class
+com\itxiaole\pojo\LoginInfo.class
+com\itxiaole\pojo\Dept.class
+com\itxiaole\pojo\PageResult.class
+com\itxiaole\pojo\EmpExpr.class
